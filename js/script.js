@@ -13,7 +13,7 @@ let lastname_input = prompt("Inserisci il tuo cognome");
 let color_input = prompt("Inserisci il tuo colore preferito");
 
 //DICHIARO E ASSEGNO ALLA VARIABILE sum_input LA SOMMA DELLE VARIABILI 
-let sum_input = `${name_input}  ${lastname_input} ${color_input} ${number}`;
+let sum_input = name_input + lastname_input + color_input + number;
 
 /* INSERISCO NELLA PAGINA HTML NEL TAG CON ID "title" LA VARIABILE "sum_input" */
 document.getElementById("title").innerHTML = sum_input;
