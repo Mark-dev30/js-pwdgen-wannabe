@@ -1,0 +1,20 @@
+PROBLEMA:
+Chiedi all’utente il suo nome, poi chiedi il suo cognome, poi chiedi il suo colore preferito
+Infine scrivi sulla pagina nomecognomecolorepreferito21.
+
+
+Risolvo:
+1 - Dare la possibilità di inserire il nome.
+    1.1 - Creo una variabile "name_input" a cui assegno il valore che verrà inserito dall'utente in fase di input.
+2 - Dare la possibilità di inserire il cognome.
+    2.1 - Creo una variabile "lastname_input" a cui assegno il valore che verrà inserito dall'utente in fase di input.
+3 - Dare la possibilità di inserire il colore preferito.
+    3.1 - Creo una variabile "color_input" a cui assegno il valore che verrà inserito dall'utente in fase di input.
+4 - Concatenare le variabili di ogni singolo input e aggiungere alla fine della stringa il numero 21.
+    4.1 - Creo una variabile fissa "number" a cui assegno il valore 21.
+    4.2 - Creo una variabile "sum_input" a cui assegno la somma delle variabili "name_input, "lastname_input", "color_input" e "number".
+5 - Mostrare a schermo il risultato.
+    5.1 - Creo un file "script.html".
+    5.2 - Aggiungo un tag h1 con id"title" al file "script.html".
+    5.3 - Scrivo il codice JS per far visualizzare il risultato a schermo.
+
